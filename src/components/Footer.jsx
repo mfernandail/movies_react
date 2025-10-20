@@ -4,7 +4,7 @@ function Footer() {
   
   return (
     <footer className="text-center">
-      <p>Project #21 - 365 Days Coding Challenge</p>
+      <p>Project #24 - 365 Days Coding Challenge</p>
     </footer>
   )
 }

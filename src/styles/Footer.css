@@ -2,4 +2,6 @@ footer {
   background-color: var(--bg-header-footer);
   color: var(--color-text-footer);
   padding: var(--spacing-sm);
+  height: 50px;
+  line-height: 50px;
 }
