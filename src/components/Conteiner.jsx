@@ -1,9 +1,12 @@
+import Footer from './Footer'
+import Header from './Header'
+
 function Conteiner() {
-  
   return (
     <div>
-      <h1>Container</h1>
+      <Header />
+      <Footer />
     </div>
   )
 }
-export default Conteiner;
+export default Conteiner
