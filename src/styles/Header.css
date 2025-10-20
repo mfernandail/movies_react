@@ -1,7 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  background-color: var(--bg-footer);
+  background-color: var(--bg-header-footer);
   color: var(--color-text-header);
   padding: 0 20px;
   height: 60px;

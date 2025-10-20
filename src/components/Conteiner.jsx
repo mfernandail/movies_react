@@ -3,8 +3,13 @@ import Header from './Header'
 
 function Conteiner() {
   return (
-    <div>
+    <div className="app-container">
       <Header />
+
+      <main>
+        <h1>Movies</h1>
+      </main>
+
       <Footer />
     </div>
   )
