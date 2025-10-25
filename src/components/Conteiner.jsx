@@ -1,5 +1,6 @@
 import Footer from './Footer'
 import Header from './Header'
+import Loading from './Loading'
 
 function Conteiner() {
   return (
@@ -8,6 +9,8 @@ function Conteiner() {
 
       <main>
         <h1>Movies</h1>
+        <Loading />
+        <p>ll</p>
       </main>
 
       <Footer />
