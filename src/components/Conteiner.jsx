@@ -1,20 +1,19 @@
-import Footer from './Footer'
-import Header from './Header'
-import Loading from './Loading'
+import Footer from './Footer';
+import Header from './Header';
+import SearchBar from './SearchBar';
 
-function Conteiner() {
+function Conteiner({ setMovie, setError }) {
   return (
     <div className="app-container">
       <Header />
 
       <main>
         <h1>Movies</h1>
-        <Loading />
-        <p>ll</p>
+        <SearchBar setMovie={setMovie} setError={setError} />
       </main>
 
       <Footer />
     </div>
-  )
+  );
 }
-export default Conteiner
+export default Conteiner;
