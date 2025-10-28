@@ -1,0 +1,23 @@
+.error-text {
+  background-color: rgb(231, 84, 84);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.show-error {
+  display: block;
+}
+
+.hide-error {
+  display: none;
+}
+
+@media (max-width: 430px) {
+  .error-text {
+    width: 90%;
+  }
+}
