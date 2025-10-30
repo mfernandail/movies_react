@@ -1,8 +1,9 @@
 import Footer from './Footer';
 import Header from './Header';
+import Error from './Error';
 import SearchBar from './SearchBar';
 
-function Conteiner({ setMovie, setError }) {
+function Conteiner({ setMovie, error, setError }) {
   return (
     <div className="app-container">
       <Header />
@@ -10,6 +11,8 @@ function Conteiner({ setMovie, setError }) {
       <main>
         <h1>Movies</h1>
         <SearchBar setMovie={setMovie} setError={setError} />
+
+        <Error error={error} />
       </main>
 
       <Footer />
