@@ -19,6 +19,7 @@ function SearchBar({ setMovie, setError }) {
       return;
     }
 
+    setError(null);
     setMovie(movieInput);
   };
 
