@@ -18,5 +18,3 @@ function useMovies() {
   };
 }
 export default useMovies;
-
-src / hooks / useMovies.js;
